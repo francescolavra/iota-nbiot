@@ -1,0 +1,64 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "iota-udp-server",
+        "scope": null,
+        "escapedName": "iota-udp-server",
+        "name": "iota-udp-server",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      }
+    ]
+  ],
+  "_inCache": true,
+  "_nodeVersion": "9.2.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "iota-udp-server",
+    "scope": null,
+    "escapedName": "iota-udp-server",
+    "name": "iota-udp-server",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_shrinkwrap": null,
+  "_spec": "iota-udp-server",
+  "author": {
+    "name": "IOTA Foundation",
+    "email": "info@iotatoken.com"
+  },
+  "bin": {
+    "iota-udp-server": "index.js"
+  },
+  "dependencies": {
+    "iota.lib.js": "^0.4.6"
+  },
+  "description": "IOTA UDP Server",
+  "devDependencies": {},
+  "directories": {},
+  "engines": {
+    "node": ">=8"
+  },
+  "keywords": [
+    "iota",
+    "wallet"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "iota-udp-server",
+  "optionalDependencies": {},
+  "preferGlobal": true,
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "cli": "node index.js",
+    "lint": "node_modules/eslint/bin/eslint.js -c .eslintrc.json index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
